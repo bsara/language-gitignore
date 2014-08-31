@@ -6,6 +6,6 @@
 * Added support for comments
 * Added support for file system path slashes
 * Added support for negation character
+* Added support for negated line
 * Added support for wild card character
-* Added support for directories
 * Added support for escaped characters

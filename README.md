@@ -1,4 +1,4 @@
-Syntax Highlighting for .gitignore Files in Atom
+# Syntax Highlighting for .gitignore Files in Atom
 ================================================
 
 [![MIT License](http://img.shields.io/badge/License-MIT-blue.svg?style=flat)](LICENSE.md)

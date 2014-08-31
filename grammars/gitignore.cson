@@ -6,40 +6,40 @@
 ]
 'patterns': [
   {
-    'match': '^###.*$'
-    'name': 'heading.gitignore'
+    'name'  : 'markup.heading.heading-1.gitignore'
+    'match' : '^\\s*###.*'
   }
   {
-    'begin': '^#(-|=|/|~|%|:|@|&|!|\+|\$|\*|\\|\|)[^#]+#?'
-    'end': '^#(-|=|/|~|%|:|@|&|!|\+|\$|\*|\\|\|)[^#]+#?'
-    'name': 'heading.block.gitignore'
+    'name'  : 'markup.heading.heading-1.block.gitignore'
+    'begin' : '^\\s*#(-|=|/|~|%|:|@|&|!|\\+|\\$|\\*|\\\\|\\|)[^#]+#?'
+    'end'   : '^\\s*#(-|=|/|~|%|:|@|&|!|\\+|\\$|\\*|\\\\|\\|)[^#]+#?'
   }
   {
-    'match': '^##[^#].*$?'
-    'name': 'section.gitignore'
+    'name'  : 'markup.heading.heading-2.gitignore'
+    'match' : '^\\s*##[^#].*'
   }
   {
-    'match': '^#[^#].*$?'
-    'name': 'comment.gitignore'
+    'name'  : 'comment.gitignore'
+    'match' : '#[^#].*'
   }
   {
-    'match': '/'
-    'name': 'slash.gitignore'
+    'name'  : 'slash.gitignore'
+    'match' : '/'
   }
   {
-    'match': '\!'
-    'name': 'keyword.negation.gitignore'
+    'name'  : 'keyword.negated.gitignore'
+    'match' : '^!'
   }
   {
-    'match': '\*'
-    'name': 'keyword.wildcard.gitignore'
+    'name'  : 'line.negated.gitignore'
+    'match' : '^!.*'
   }
   {
-    'match': '.*/.*'
-    'name': 'directory.gitignore'
+    'name'  : 'keyword.wildcard.gitignore'
+    'match' : '\\*'
   }
   {
-    'match': '(\\!|\\*)'
-    'name': 'constant.character.escape.gitignore'
+    'name'  : 'constant.character.escape.gitignore'
+    'match' : '(\\\\!|\\\\\\*|\\\\\\\\)'
   }
 ]
