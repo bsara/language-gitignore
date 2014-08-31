@@ -1,0 +1,45 @@
+'name': 'Gitignore'
+'scopeName': 'source.gitignore'
+'fileTypes': [
+  'gitignore'
+  'gitignore_global'
+]
+'patterns': [
+  {
+    'match': '^###.*$'
+    'name': 'heading.gitignore'
+  }
+  {
+    'begin': '^#(-|=|/|~|%|:|@|&|!|\+|\$|\*|\\|\|)[^#]+#?'
+    'end': '^#(-|=|/|~|%|:|@|&|!|\+|\$|\*|\\|\|)[^#]+#?'
+    'name': 'heading.block.gitignore'
+  }
+  {
+    'match': '^##[^#].*$?'
+    'name': 'section.gitignore'
+  }
+  {
+    'match': '^#[^#].*$?'
+    'name': 'comment.gitignore'
+  }
+  {
+    'match': '/'
+    'name': 'slash.gitignore'
+  }
+  {
+    'match': '\!'
+    'name': 'keyword.negation.gitignore'
+  }
+  {
+    'match': '\*'
+    'name': 'keyword.wildcard.gitignore'
+  }
+  {
+    'match': '.*/.*'
+    'name': 'directory.gitignore'
+  }
+  {
+    'match': '(\\!|\\*)'
+    'name': 'constant.character.escape.gitignore'
+  }
+]
