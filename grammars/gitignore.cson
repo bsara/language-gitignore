@@ -10,16 +10,16 @@
   }
   {
     'name'  : 'meta.section.block.gitignore'
-    'begin' : '^\\s*#(-|=|/|~|%|:|@|&|!|\\+|\\$|\\*|\\\\|\\|)[^#]+#?'
-    'end'   : '^\\s*#(-|=|/|~|%|:|@|&|!|\\+|\\$|\\*|\\\\|\\|)[^#]+#?'
+    'begin' : '^\\s*#[^\\s]+#$'
+    'end'   : '^\\s*#[^\\s]+#$'
   }
   {
     'name'  : 'meta.subsection.gitignore'
-    'match' : '^\\s*##[^#].*'
+    'match' : '^\\s*##.*'
   }
   {
     'name'  : 'comment.gitignore'
-    'match' : '#[^#].*'
+    'match' : '#.*'
   }
   {
     'name'  : 'punctuation.separator.file-path.gitignore'

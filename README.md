@@ -9,8 +9,13 @@ Syntax Highlighting for .gitignore Files in Atom
 
 Adds syntax highlighting to .gitignore files in Atom.
 
-For full list of supported formats for "Header Blocks", see the [header block samples page](https://github.com/bsara/language-gitignore/blob/master/samples-header-blocks.md).
+#### Header Blocks
 
+A "Header Block" is started and ended by a line that begins with `#` followed by any
+character(s) (except a space), and ended by another `#`. (See the [gitignore sample file](https://github.com/bsara/language-gitignore/blob/master/sample.gitignore)
+for an example of a valid "Header Block").
+
+#### Screenshot
 
 ![Screenshot](https://raw.githubusercontent.com/bsara/language-gitignore/master/screenshot.png)
 
